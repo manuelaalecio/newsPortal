@@ -24,6 +24,10 @@
   padding: 24px;
 }
 
+#featured figcaption:has(.text-lg) {
+  padding: 12px;
+}
+
 #featured figcaption h2 {
   margin-top: 8px;
 }

@@ -1,5 +1,18 @@
 #featured img {
   height: 100%;
   object-fit: cover;
+}
+
+#featured .card {
   border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+#featured .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  top: 50%;
+  background: linear-gradient(180deg, transparent 0%, #020617 100%);
 }

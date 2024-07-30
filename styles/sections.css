@@ -20,6 +20,10 @@ section header {
   }
 }
 
+#featured {
+  grid-area: featured;
+}
+
 #featured img {
   height: 100%;
   object-fit: cover;
@@ -54,6 +58,10 @@ section header {
   margin-top: 8px;
 }
 
+#weekly {
+  grid-area: weekly;
+}
+
 #weekly > div {
   grid-template-columns: repeat(4, 1fr);
 }
@@ -75,4 +83,36 @@ section header {
 #weekly figure p {
   margin-top: 8px;
   font-weight: 800;
+}
+
+#ia {
+  grid-area: ia;
+}
+
+#ia img {
+  width: 176px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+
+#ai h3 {
+  margin-block: 8px 4px;
+}
+
+aside {
+  grid-area: aside;
+}
+
+#more {
+  margin-top: 32px;
+}
+
+#more h3 {
+  margin-top: 8px;
+}
+
+#more img {
+  width: 72px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
